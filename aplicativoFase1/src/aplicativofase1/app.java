@@ -16,7 +16,6 @@ public class app {
         Banco
         
          */
-        
         Banco banco = new Banco();
 
         Scanner sc = new Scanner(System.in);
@@ -25,7 +24,7 @@ public class app {
         int cuenta = sc.nextInt();
 
         String operacion = "";
-        
+
         switch (cuenta) {
 
             case 1:
@@ -114,7 +113,7 @@ public class app {
                 System.out.println("Cuenta no registrada :(");
                 System.exit(0);
         }
-        
+
         System.out.println(banco.getPer1().getMonto() + banco.getPer2().getMonto() + banco.getPer3().getMonto());
 
     }
